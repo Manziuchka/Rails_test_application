@@ -24,6 +24,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_admin_theme (1.1.1)
     activeadmin (2.2.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (~> 3.1)
@@ -279,6 +280,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_admin_theme
   activeadmin
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
@@ -289,6 +291,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   jbuilder (~> 2.5)
+  jquery-rails
   jwt
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)

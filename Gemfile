@@ -29,6 +29,7 @@ gem 'jwt'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+#Add phonelib to validate phone number.
 gem 'phonelib'
 
 # Add Admin panel
@@ -37,6 +38,9 @@ gem 'devise'
 
 # Add Bootstrap to admin panel
 gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+
+gem 'active_admin_theme'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
